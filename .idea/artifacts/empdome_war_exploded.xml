@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="empdome:war exploded">
+    <output-path>D://artifacts/empdome_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="empdome" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="druid-1.1.10" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="empdome/web/Web" />
+    </root>
+  </artifact>
+</component>
